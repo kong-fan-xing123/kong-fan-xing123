@@ -3,7 +3,8 @@
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" alt="java"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" alt="cpp"></code>
-
+[![Github stats](https://github-readme-stats.vercel.app/api?username=kong-fan-xing123&show_icons=true&include_all_commits=true)](https://github.com/YourUsername/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kong-fan-xing123&layout=compact)](https://github.com/YourUsername/github-readme-stats)
 <!--
 **kong-fan-xing123/kong-fan-xing123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
