@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #se {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    结果(如果出现x.xxxxxxxxxxxxxe+x那数字等于x.xxxxxxxxxxx × 10 +e后面的数字)：
+    <p style="background-color: #FF5612;overflow:scroll;" id="jieguo">1</p>
+    <button id="cont">next</button>
+    输入数字(最大1024.9999999999998) <input type="text" name="nb" id="ttc" style="margin: right 7777px; display: inline-block;">
+    <input type="text" name="i" id="i" readonly value="0">
+    <img src="error.png" alt="SyntaxError" id="se">
+    <script>
+        /*if (!window.parent){window.close()}*/
+
+        var jieguo, p;
+        var g, i;
+        se = document.getElementById("se")
+        i = document.getElementById("i")
+        g = document.getElementById("ttc")
+        try {
+            function fang(nub) {
+                if (isNaN(nub)|| !nub) {
+
+                    se.style.visibility = "visible"
+                    throw SyntaxError("error: enter number")
+                    return (SyntaxError("error: enter number"))()
+                }
+                nub--;
+                se.style.visibility = "hidden";
+                return 2 ** nub
+            }
+        } catch  (e){
+            alert(e+"                                  ")
+        }
+
+        g.oninput = function () {
+
+            i.value = fang(g.value)
+
+        }
+
+        jieguo = document.getElementById("jieguo");
+        p = document.getElementById("cont");
+        var j = 1;
+
+        p.onclick = function (e) {
+            j = j + j;
+            jieguo.innerHTML += "," + j;
+        }
+
+
+    </script>
+</body>
+
+</html>
